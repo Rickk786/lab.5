@@ -1,0 +1,25 @@
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #eaf7fa;
+  padding: 30px;
+}
+
+#beach {
+  width: 600px;
+  max-width: 100%;
+  display: block;
+  margin: 20px auto;
+}
+
+audio {
+  display: block;
+  margin: 20px auto;
+}
+
+button {
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+}

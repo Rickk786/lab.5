@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Beach Soundscape</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>A Moment by the Sea</h1>
+
+  <img src="images/beach.jpeg" alt="A peaceful beach" id="beach">
+
+  <audio id="beachAudio" controls>
+  <source src="audio/beach.wav" type="audio/wav">
+</audio>
+
+  <div>
+    <button onclick="playAudio()">Play</button>
+    <button onclick="pauseAudio()">Pause</button>
+    <button onclick="replayAudio()">Replay</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
